@@ -1,11 +1,36 @@
 <html>
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-156493028-3"></script>
     <script>
-        if(window.innerWidth >= window.innerHeight && window.innerWidth > 999){
-            <!--versão desktop-->
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-156493028-3');
+
+    </script>
+
+</head>
+
+<body>
+    <script>
+        if (window.innerWidth >= window.innerHeight && window.innerWidth > 999) {
+            <
+            !--versão desktop-- >
             window.location.replace("https://datastudio.google.com/reporting/4d08b369-7756-4bae-81eb-70d7d625d0ea");
-        }else{
-            <!--versão mobile-->
+        } else {
+            <
+            !--versão mobile-- >
             window.location.replace("https://datastudio.google.com/reporting/fe6022ac-d08b-4733-a0b5-3c8a20851394");
         }
+
     </script>
+
+</body>
+
 </html>
